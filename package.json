@@ -1,0 +1,18 @@
+{
+  "name": "Testcafe",
+  "version": "1.0.0",
+  "description": "Template test automation framework",
+  "scripts": {
+    "test-web": "testcafe chrome my-tests/web/web.test.js",
+    "test-api": "jest my-tests/apitests, my-tests/dbtests"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "testcafe": "*",
+    "jest": "^22.4.2",
+    "jest-html-reporter": "^2.4.0",
+    "supertest": "^3.1.0"
+  }
+}
